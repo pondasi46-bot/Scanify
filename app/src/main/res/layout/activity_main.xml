@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://android.com"
+    xmlns:tools="http://android.com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Scanify"
+        android:textColor="#0B2545"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="AI Smart Scanner &amp; Document Utility"
+        android:textColor="#666666"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#F4F6F9"
+        android:gravity="center"
+        android:padding="24dp"
+        android:text="Scanned document status or preview info will appear here"
+        android:textColor="#333333"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#0B2545"
+        android:text="Start AI Document Scan"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>
